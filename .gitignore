@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Data / outputs
+.cache/
+.cache_test/
+*.xlsx
+*.csv
+!requirements.txt

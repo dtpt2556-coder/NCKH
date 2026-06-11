@@ -1,0 +1,8 @@
+# NCKH OHLC fetcher — runtime dependencies
+# Pinned to the versions verified in the diagnostic (see docs/VNSTOCK_OHLC_REPORT.md).
+vnstock==4.0.4
+pandas>=2.0,<3.0
+openpyxl>=3.1        # Excel (.xlsx) output; also a vnstock dependency
+
+# Dev / test only:
+pytest>=8.0
